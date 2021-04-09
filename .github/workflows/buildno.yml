@@ -27,10 +27,10 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Log Run Id
-        run: echo ${{ env.GITHUB_RUN_ID }}
+        run: echo $GITHUB_RUN_ID
 
       # Runs a set of commands using the runners shell
       - name: Log build number
-        run: echo ${{ env.GITHUB_RUN_NUMBER }}
+        run: echo $GITHUB_RUN_NUMBER
  
 
